@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Permanent+Marker&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+}
+
+header {
+    background-color: teal;
+    height: 90px;
+    padding-left: 16px;
+    padding-right: 16px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center
+}
+
+header .menu {
+    width: 64px;
+}
+
+h1, h3 {
+    color: white;
+    font-family: "Permanent Marker", cursive;
+    text-align: center;
+}
+
+nav {
+    background-color: slateblue;
+    position: sticky;
+    top: 0;
+}
+
+ul {
+    min-height: 36px;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap: 10px;
+}
+
+nav ul li {
+}
+nav ul li a {
+    color: #FFF;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    border-bottom: 2px solid #FFF;
+}
+main {
+    width: 90%;
+    margin: 20px auto;
+    background-color: rgb(204, 206, 207);
+    min-height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    flex-wrap: wrap;
+    flex-direction: row-reverse;
+
+}
+
+footer {
+    background-color: black;
+    color: white;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.item {
+    background-color: slateblue;
+    border: 2px solid #FFF;
+    border-radius: 8px;
+    width: 200px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
